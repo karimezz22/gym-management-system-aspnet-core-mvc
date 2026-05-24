@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace GymManagementSystem.Migrations
+namespace GymManagement.DAL.Migrations
 {
     /// <inheritdoc />
     public partial class AddPlanTable : Migration

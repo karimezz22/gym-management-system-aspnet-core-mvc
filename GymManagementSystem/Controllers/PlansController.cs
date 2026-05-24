@@ -1,8 +1,8 @@
-﻿using GymManagementSystem.DbContexts;
+﻿using GymManagement.DAL.DbContexts;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace GymManagementSystem.Controllers
+namespace GymManagement.PL.Controllers
 {
     public class PlansController : Controller
     {

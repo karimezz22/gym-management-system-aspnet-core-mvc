@@ -1,4 +1,4 @@
-namespace GymManagementSystem
+namespace GymManagement.PL
 {
     public class Program
     {
