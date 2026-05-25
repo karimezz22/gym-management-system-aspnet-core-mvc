@@ -1,7 +1,5 @@
-﻿using GymManagement.DAL.Repositories.Classes;
-using GymManagement.DAL.Repositories.Interfaces;
+﻿using GymManagement.DAL.Repositories.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace GymManagement.PL.Controllers
 {
@@ -9,9 +7,9 @@ namespace GymManagement.PL.Controllers
     {
 
         private readonly IPlanRepository planRepository;
-        public PlansController()
+        public PlansController(IPlanRepository planRepository)
         {
-            planRepository = new PlanRepository();
+            this.planRepository = planRepository;
         }
 
         //Index Action

@@ -15,7 +15,7 @@ namespace GymManagement.DAL.Configurations
 
             builder.Property(p => p.Name)
                    .HasColumnType("varchar")
-                   .HasMaxLength(50); 
+                   .HasMaxLength(50);
 
             builder.Property(p => p.Description)
                    .HasMaxLength(200);
